@@ -2,6 +2,10 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     background-color: #f4f6f9;
+    background-image: url("images/back.avif");
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 /* Navigation */
@@ -23,7 +27,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: wheat;
     text-decoration: none;
 }
 
@@ -35,6 +39,7 @@ nav ul li a:hover {
 section {
     padding: 50px;
     text-align: center;
+    flex: 1;
 }
 
 section h1 {
